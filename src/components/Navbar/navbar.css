@@ -1,0 +1,11 @@
+.nav_container{
+    background-color: #3A3E9F;
+    color: #E8BE45;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.nav_container h3{
+    font-size: 35px;
+    margin-left: 90px;
+}

@@ -1,0 +1,116 @@
+.container_card {
+  cursor: pointer;
+  /* Add any other styles for the container card */
+}
+
+.add_card {
+  position: relative;
+  /* Add any other styles for the add card section */
+}
+
+.arrow_icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* Add any other styles for the arrow icon */
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: #EFF7FF;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(102, 102, 102, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-col {
+  flex: 1;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 85%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #EFF7FF;;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color:#3A3E9F;
+  color: #fff;
+  float: right;
+  margin-right: 5%;
+}
+
+button[type="button"] {
+  background-color: #dc3545;
+}
+
+
+.arrow_icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 4rem;
+  }
+
+  .form-rowbtn{
+    display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+  }
+  .form-rowbtn button{
+  border-radius: 50px;
+    
+  }
+  .add_candidate button{
+    border-radius: 10px;
+      
+    }
+  .cross{
+    position: relative;
+    right: 10px;
+  }
+  .cross span{
+    display: inline-block;
+    float: right;
+    margin-right: 33px;
+    cursor: pointer;
+  }
